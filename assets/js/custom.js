@@ -1,4 +1,13 @@
 $(function(){
+     //skrollr
+     var s = skrollr.init(
+        smoothScrolling = true
+    );
+
+    $(window).scroll(function(){    
+        let wScroll = $(this).scrollTop();
+        $(".ScrollTop span").text(wScroll);
+    });
     
     
     //로딩
@@ -29,5 +38,23 @@ $(function(){
         $(".main .main_row").animate({bottom : "5%"},500, 'easeInCubic');
         $(".main .main_row").animate({bottom : "8%"},500,'easeOutCubic');
     };
+
+    //메인 텍스트 지워지기    
+    $(".main .main_box .mb_text").touchstart(function(){
+        $(this).css("display","none")
+    }); 
+
+
+    //햄버거메뉴
+    $(".ham").click(function(){
+        $(this).toggleClass("click");
+        $(".nav").toggleClass("click");
+    });
+    $("a[href^='#']").on("click",function(){
+        let target = $($(this).attr("href"));
+        if(target.length){
+          $("html, body").animate({scrollTop: target.offset().top},600,"easeInOutExpo")
+        }
+      });
 
 });
