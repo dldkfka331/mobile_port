@@ -46,9 +46,13 @@ $(function(){
       });
 
       //slick
-      $('.web_list').slick({
+      $('.mobile_list').slick({
         infinite: true,
-      });
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 1.7,
+        slidesToScroll: 1.5
+       });
               
 
 });
