@@ -139,7 +139,7 @@ body{
 .who_bg02 {width: 100%; height: 100%; position: absolute; top: 0; left: 50px; background: url(../img/port002_02.png) no-repeat; background-size: contain; }
 .who_bg03 {width: 100%; height: 100%; position: absolute; top: 0; left: 50px; background: url(../img/port002_03.png) no-repeat; background-size: contain; }
 
-.who_text {background: #fff; width: 100%; margin-top: 10vh; padding-bottom: 50vh; position: relative;}
+.who_text {background: #fff; width: 100%; margin-top: 10vh; padding-bottom: 50vw; position: relative;}
 .svg {position: absolute; width: 150px; height: 150px; top: -75px; left: 50%;  transform: translateX(-50%); z-index: 3; }
 .svg  svg{animation: svg 4s infinite linear;}
 @keyframes svg {
@@ -148,27 +148,23 @@ body{
 }
 text {position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); font-size: 5vw; color: #fff; font-family: var(--font-main6);}
 
-.who_text_about {padding-top: 10vh; text-align: center; color: #000; position: relative;}
+.who_text_about {padding-top: 20vw; text-align: center; color: #000; position: relative;}
 .who_text_about strong {display: inline-block; font-size: 17vw; font-family: var(--font-main7); z-index: 2; position: relative;}
-.me_img {position: absolute; left: 0; top: 25vw; width: 75%; display: inline-block; z-index: 0; }
+.me_img {position: absolute; left: 0; top: 35vw; width: 80%; display: inline-block; z-index: 0; }
 .me_img img {width: 100%; border-radius: 5%; position: relative;}
 .me_img:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0;  left: 0; background: rgba(255,255,255,.7); border-radius: 5%;}
 p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-main3); transform: rotate(-90deg) translate(-30vw, -40vw); -webkit-text-fill-color: transparent; -webkit-text-stroke-color: #000; -webkit-text-stroke-width: 2px; }
-.who_text_about p.who_click {font-size: 4.2vw; width: 85%; margin: 10vh 0 0 10%; text-align: right; font-family: var(--font-kr); letter-spacing: 5px; word-break: keep-all; line-height: 1.7; z-index: 5; position: relative;}
+.who_text_about p.who_click {font-size: 5vw; width: 85%; margin: 5vh 0 0 5%; text-align: right; font-family: var(--font-kr); letter-spacing: 5px; word-break: keep-all; line-height: 1.7; z-index: 5; position: relative;}
 
 
 /*history */
 .history {position: relative; width: 100%; }
-.history_img {position: absolute; top: -15vh; left: 50%; transform: translateX(-50%);}
+.history_img {position: absolute; top: -20vw; left: 50%; transform: translateX(-50%);}
 .history_img img{width: 80%;}
-.history_tit {display: flex; justify-content: space-around; font-size: 10vw; padding-top: 335px; text-transform: uppercase; color: #fff;}
-.history_tit span {font-family: var(--font-main7);}
-.histort_bg {width: 80%; height: 80vw; margin-top: 20vh; position: relative;}
-.hi_bg_01 {position: absolute; top: 0; left: 0; width: 100%; height: 80vw; background: url(../img/mb_text101_01.png) no-repeat center center; background-size: contain;}
-.hi_bg_02 {position: absolute; top: 0; left: 0; width: 100%; height: 80vw; background: url(../img/mb_text101_02.png) no-repeat center center; background-size: contain;}
-.hi_bg_03 {position: absolute; top: 0; left: 0; width: 100%; height: 80vw; background: url(../img/mb_text101_03.png) no-repeat center center; background-size: contain;}
-.hi_bg_04 {position: absolute; top: 0; left: 0; width: 100%; height: 80vw; background: url(../img/mb_text101_04.png) no-repeat center center; background-size: contain;}
-.histort_bg .history_text {position: absolute; top: 10vw; right: -15vw; word-break: keep-all; text-align: right; font-family: var(--font-kr); font-size: 2vw; width: 35vw; }
+.history_tit {display: flex; justify-content: space-around; font-size: 17vw; padding-top: 10vh; text-transform: uppercase; color: #fff; font-family: var(--font-main7);}
+.histort_bg {width: 80%; height: 80vw; margin-top: 10vh; position: relative;}
+.hi_bg {position: absolute; top: 0; left: 0; width: 100%; height: 80vw; background: url(../img/mb_text101.png) no-repeat center center; background-size: contain;}
+.histort_bg .history_text {position: absolute; top: 0vw; right: -15vw; word-break: keep-all; text-align: right; font-family: var(--font-kr); font-size: 2vw; width: 35vw; }
 .histort_bg .history_text strong {font-size: 6vw; font-family: var(--font-main7);}
 
 
