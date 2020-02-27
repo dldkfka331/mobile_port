@@ -134,7 +134,7 @@ body{
 .who .who_tit {text-align: center;}
 .who .who_tit p {width: 90%; margin: 0 auto; font-family: var(--font-main7); color: #fff; font-size: 7vw; line-height: 1;}
 .who .who_tit p span {display: block; margin-top: 5vw; font-size: 3vw; font-family: var(--font-roboto); }
-.who_bg { margin-top: 30vw; width: 100%; height: 70vw;  position: relative; overflow: hidden;}
+.who_bg {margin-top: 30vw; width: 100%; height: 70vw;  position: relative; overflow: hidden;}
 .who_bg01 {width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: url(../img/port002_01.png) no-repeat; background-size: contain; }
 .who_bg02 {width: 100%; height: 100%; position: absolute; top: 0; left: 50px; background: url(../img/port002_02.png) no-repeat; background-size: contain; }
 .who_bg03 {width: 100%; height: 100%; position: absolute; top: 0; left: 50px; background: url(../img/port002_03.png) no-repeat; background-size: contain; }
@@ -148,27 +148,12 @@ body{
 }
 text {position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); font-size: 5vw; color: #fff; font-family: var(--font-main6);}
 
-.who_text_about {padding-top: 10vw; text-align: center;  color: #000; position: relative;}
-.who_text_about strong {display: inline-block; font-size: 17vw; font-family: var(--font-main7);}
-.who_text_about strong:hover {
-    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 1) 35%, rgba(0, 0, 0, 0.555) 50%, rgba(0,0,0,1) 80%);
-    -webkit-mask-size: 200%;
-    animation: shine 2s infinite;
-  }
-@keyframes shine {
-    from {-webkit-mask-position: 150%;}
-    to {-webkit-mask-position: -50%;}
-  }
-  
-.me_img {position: absolute; left: 0; top: 45vw; width: 75%; display: inline-block; }
+.who_text_about {padding-top: 10vh; text-align: center; color: #000; position: relative;}
+.who_text_about strong {display: inline-block; font-size: 17vw; font-family: var(--font-main7); z-index: 2; position: relative;}
+.me_img {position: absolute; left: 0; top: 25vw; width: 75%; display: inline-block; z-index: 0; }
 .me_img img {width: 100%; border-radius: 5%; position: relative;}
 .me_img:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0;  left: 0; background: rgba(255,255,255,.7); border-radius: 5%;}
 p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-main3); transform: rotate(-90deg) translate(-30vw, -40vw); -webkit-text-fill-color: transparent; -webkit-text-stroke-color: #000; -webkit-text-stroke-width: 2px; }
-.who_text_about p.who_click {font-size: 4.2vw; width: 65%; margin: 0 0 0 30%; text-align: right; font-family: var(--font-kr); letter-spacing: 5px; word-break: keep-all; line-height: 1.7; z-index: 5; position: relative;}
-.who_text_about p.who_click span[class^="who_click"] {
-  padding: 1%;
-    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0.39) 50%, rgba(0,0,0,1) 80%);
-    -webkit-mask-size: 200%;
-    animation: shine 2s infinite;
-}
+.who_text_about p.who_click {font-size: 4.2vw; width: 85%; margin: 10vh 0 0 10%; text-align: right; font-family: var(--font-kr); letter-spacing: 5px; word-break: keep-all; line-height: 1.7; z-index: 5; position: relative;}
+
 
