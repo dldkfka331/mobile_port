@@ -40,7 +40,7 @@ $(function(){
     };
 
     //메인 텍스트 지워지기    
-    $(".main .main_box .mb_text").touchstart(function(){
+    $(".main .main_box .mb_text").mousemove(function(){
         $(this).css("display","none")
     }); 
 
