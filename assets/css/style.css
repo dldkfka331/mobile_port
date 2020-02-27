@@ -204,3 +204,6 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 /*me*/
 .me {background: #000; position: relative; }
 .me_tit {font-size: 14vw; text-align: center; padding-top: 17vw; padding-bottom: 15vw; text-transform: uppercase; font-family: var(--font-main7); color: #fff; line-height: 1; overflow: hidden; }
+.me_suchi {background: url(../img/web_bg.jpg) center ;  background-attachment: fixed; filter: hue-rotate(340deg); padding-top: 10vw; font-size: 8vw; color: #fff; line-height: 1; text-transform: uppercase; font-family: var(--font-main3); text-align: center;}
+.me_suchi span {font-size: 4vw; position: relative;}
+.me_suchi span:after {content: '%'; font-size: 3vw; position: absolute; bottom: 0; right: -20px;}

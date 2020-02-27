@@ -51,6 +51,14 @@ $(function(){
         centerPadding: '20px',
         slidesToShow: 1.2
        });
+
+          //기록
+    if($(".me_suchi span").is( ":visible" ) ){
+        $('.counter').counterUp({
+            delay: 100, 
+            time: 3000 
+        });
+    }
               
 
 });
