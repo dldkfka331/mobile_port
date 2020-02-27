@@ -160,12 +160,12 @@ text {position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); 
     to {-webkit-mask-position: -50%;}
   }
   
-.me_img {position: absolute; left: 0; top: 50%; width: 45%; display: inline-block; }
-.me_img img {width: 80%; border-radius: 5%; position: relative;}
-.me_img img:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0;  left: 0; background: #000;}
-.me_img .me_img_text {font-size: 7vw; white-space: nowrap; font-family: var(--font-main3); -webkit-text-fill-color: transparent; -webkit-text-stroke-color: #000; -webkit-text-stroke-width: 2px; }
-.who_text_about p {font-size: 3vw; width: 45%; margin:20vh 0 0 50%; text-align: right; font-family: var(--font-kr); letter-spacing: 5px; word-break: keep-all; line-height: 1.7;}
-.who_text_about p span[class^="who_click"] {
+.me_img {position: absolute; left: 0; top: 45vw; width: 75%; display: inline-block; }
+.me_img img {width: 100%; border-radius: 5%; position: relative;}
+.me_img:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0;  left: 0; background: rgba(255,255,255,.7); border-radius: 5%;}
+p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-main3); transform: rotate(-90deg) translate(-30vw, -40vw); -webkit-text-fill-color: transparent; -webkit-text-stroke-color: #000; -webkit-text-stroke-width: 2px; }
+.who_text_about p.who_click {font-size: 4.2vw; width: 65%; margin: 0 0 0 30%; text-align: right; font-family: var(--font-kr); letter-spacing: 5px; word-break: keep-all; line-height: 1.7; z-index: 5; position: relative;}
+.who_text_about p.who_click span[class^="who_click"] {
   padding: 1%;
     -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0.39) 50%, rgba(0,0,0,1) 80%);
     -webkit-mask-size: 200%;
