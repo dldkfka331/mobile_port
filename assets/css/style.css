@@ -1,11 +1,12 @@
 
 @font-face { font-family: '양진체'; src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff'); font-weight: normal; font-style: normal; } 
 @font-face {
-    font-family: 'Godo';
+    font-family: 'LotteMartHappy';
     font-style: normal;
     font-weight: 400;
-    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/lottemart/LotteMartHappy/LotteMartHappyMedium.woff') format('woff');
   }
+  
 
 body{
     --font-main1: 'Neucha', cursive;
@@ -17,7 +18,7 @@ body{
     --font-main7: 'Barriecito', cursive;
     --font-roboto: 'Roboto', sans-serif;
     --font-kr: '양진체';
-    --font-kr2: 'Godo';
+    --font-kr2: 'LotteMartHappy';
 }
 
 
@@ -64,7 +65,7 @@ body{
 .main {position: relative;}
 .main .main_top {position: absolute; top: 5%; left: 50%; width: 60%; transform: translateX(-50%); display: flex; justify-content: space-around; z-index: 1000;}
 .main .main_top strong {position: relative; font-family: var(--font-roboto);}
-.main .main_top strong a {color: #fff; font-size: 3vw;}
+.main .main_top strong a {color: #fff; font-size: 3.3vw;}
 .main .main_top strong:after {content: 'X'; position: absolute; top: 1vw; right: -3.3vw; color: rgba(255, 255, 255, 0.6); font-size: 12px; font-weight: bold;}
 .main .main_top strong:last-child:after {display: none;}
 
@@ -139,10 +140,10 @@ body{
 .who .who_tit {text-align: center;}
 .who .who_tit p {width: 90%; margin: 0 auto; font-family: var(--font-main7); color: #fff; font-size: 7vw; line-height: 1;}
 .who .who_tit p span {display: block; margin-top: 5vw; font-size: 3vw; font-family: var(--font-roboto); }
-.who_bg {margin-top: 30vw; width: 100%; height: 70vw;  position: relative; overflow: hidden;}
-.who_bg01 {width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: url(../img/port002_01.png) no-repeat; background-size: contain; }
-.who_bg02 {width: 100%; height: 100%; position: absolute; top: 0; left: 50px; background: url(../img/port002_02.png) no-repeat; background-size: contain; }
-.who_bg03 {width: 100%; height: 100%; position: absolute; top: 0; left: 50px; background: url(../img/port002_03.png) no-repeat; background-size: contain; }
+.who_bg {margin-top: 30vw; width: 100%; height: 80vw;  position: relative; overflow: hidden;}
+.who_bg01 {width: 120%; height: 120%; position: absolute; top: -20vw; left: 0; background: url(../img/port002_01.png) no-repeat; background-size: contain; }
+.who_bg02 {width: 120%; height: 100%; position: absolute; top: 0vw; left: 0px; background: url(../img/port002_02.png) no-repeat; background-size: contain; }
+.who_bg03 {width: 98%; height: 120%; position: absolute; top: 0vw; left: 0px; background: url(../img/port002_03.png) no-repeat left; background-size: contain; }
 
 .who_text {background: #fff; width: 100%; margin-top: 10vh; padding-bottom: 50vw; position: relative;}
 .svg {position: absolute; width: 150px; height: 150px; top: -75px; left: 50%;  transform: translateX(-50%); z-index: 3; }
@@ -159,7 +160,7 @@ text {position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); 
 .me_img img {width: 100%; border-radius: 5%; position: relative;}
 .me_img:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0;  left: 0; background: rgba(255,255,255,.7); border-radius: 5%;}
 p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-main3); transform: rotate(-90deg) translate(-30vw, -40vw); -webkit-text-fill-color: transparent; -webkit-text-stroke-color: #000; -webkit-text-stroke-width: 2px; }
-.who_text_about p.who_click {font-size: 5vw; margin: 5vh 3vw 0 0; text-align: right; font-family: var(--font-kr2); letter-spacing: 2px; word-break: keep-all; z-index: 5; position: relative;}
+.who_text_about p.who_click {font-size: 5vw; margin: 5vh 3vw 0 3vw; text-align: right; font-family: var(--font-kr2); letter-spacing: 2px; word-break: keep-all; z-index: 5; position: relative;}
 
 
 /*history */
@@ -169,9 +170,9 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 .history_tit {display: flex; justify-content: space-around; font-size: 17vw; padding-top: 30vw; text-transform: uppercase; color: #fff; font-family: var(--font-main7);}
 .histort_bg {margin-right: 3vw; height: 80vw; margin-top: 10vw; position: relative;}
 .hi_bg {position: absolute; top: 20vw; left: -12vw; width: 110%; height: 100vw; background: url(../img/mb_text101.png) no-repeat center center; background-size: contain;}
-.histort_bg .history_text {position: absolute; top: 0vw; right: 0; word-break: keep-all; text-align: right; font-family: var(--font-kr); }
+.histort_bg .history_text {position: absolute; top: 0vw; right: 0; word-break: keep-all; text-align: right; font-family: var(--font-kr2); }
 .histort_bg .history_text strong {font-size: 10vw; font-family: var(--font-main7);}
-.histort_bg .history_text p {font-size: 3.5vw; margin-left: 40%; line-height: 1.8;}
+.histort_bg .history_text p {font-size: 3.5vw; margin-left: 30%; line-height: 1.3;}
 
 
 
