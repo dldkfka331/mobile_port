@@ -33,7 +33,6 @@ $(function(){
         $(this).css("display","none")
     }); 
 
-
     //햄버거메뉴
     $(".ham").click(function(){
         $(this).toggleClass("click");
@@ -45,5 +44,10 @@ $(function(){
           $("html, body").animate({scrollTop: target.offset().top},600,"easeInOutExpo")
         }
       });
+
+      //slick
+      $('.web_list').slick({
+      });
+              
 
 });

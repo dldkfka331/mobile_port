@@ -1,5 +1,3 @@
-/* 스크롤 */
-.ScrollTop {position: fixed; top: 20px; left: 20px; width: 50px; height: 30px; background: #fff; color: #000; text-align: center; line-height: 30px; z-index: 9999; }
 
 @font-face { font-family: '양진체'; src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff'); font-weight: normal; font-style: normal; } 
 
@@ -169,3 +167,37 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 .histort_bg .history_text p {font-size: 3vw; margin-left: 40%;}
 
 
+
+/*web*/
+.web {position: relative; background: #000; }
+.web_tit {font-size: 14vw; text-align: center; padding-top: 15vw; text-transform: uppercase; font-family: var(--font-main7); color: #fff; line-height: 1; background: #000; padding-bottom: 15vw;}
+.web_bg {background: url(https://images.unsplash.com/photo-1550876542-8f7f453d0bed?ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80) no-repeat center center; background-size: cover; filter: hue-rotate(80deg); background-attachment: fixed; width: 100%; height: 40vh; }
+.web_wrap {background: #000; width: 100%; }
+.web_list {position: relative; background: #23131a;}
+.web_list > div[class^="web_list"]  {display: flex; align-items: center; justify-content: center; overflow: hidden; padding-right: 2vw; width: 90%; height: 80vw; z-index: 2;}
+.web_list > div:before {content: ''; position: absolute; top: 50px; right: 50px; width: 40px; height: 40px; background: #000; border-radius: 50%; z-index: 3;}
+
+.web_list .wl_bg {width: 80vw; height: 90vw; }
+.web_list .wl_text {width: 40%; text-align: right; margin: -20px; position: relative;}
+.web_list .wl_text h4 {font-size: 3vw; letter-spacing: 4px; font-weight: bold; font-family: var(--font-main4); background-color: #208022; margin: -4%; padding: 2% 3%; white-space: nowrap; box-shadow: 10px 9px 0px 0px #145815;}
+.web_list > div:nth-child(2) .wl_text h4 {background-color: rgb(255, 255, 255);box-shadow: 10px 9px 0px 0px rgb(204, 204, 204);}
+.web_list > div:nth-child(3) .wl_text h4 {background-color: rgb(238, 207, 34);box-shadow: 10px 9px 0px 0px rgb(190, 166, 27);}
+.web_list > div:nth-child(4) .wl_text h4 {background-color: rgb(148, 73, 235);box-shadow: 10px 9px 0px 0px rgb(103, 45, 168);}
+
+.web_list .wl_text .wl_view {position: absolute; bottom: -6vw; right: -.5vw; width: 120px; height: 50px; background: #fff; border-radius: 30%; font-family: var(--font-main4); text-transform: uppercase; color: #000; font-size: 18px; font-weight: bold; text-align: center; line-height: 50px; transition: transform .3s,  box-shadow .3s;}
+.web_list .wl_text .wl_view:after {content: ''; position: absolute; left: 0px; top: 50%; transform: translatey(-50%); border-style: solid; border-width: 10px 10px 10px 0; border-color: transparent #fff transparent transparent; transition: transform .3s; z-index: -1;}
+.web_list .wl_text .wl_view:hover {transform: translateX(10px); box-shadow: 8px 8px #bbb; }
+.web_list .wl_text .wl_view:hover:after {transform: translateX(-10px) translatey(-50%);}
+
+
+.web_list01 {background: rgb(255, 194, 0); border-radius: 50px;}
+.web_list02 {background: rgb(43, 73, 172); border-radius: 50px;}
+.web_list03 {background: rgb(235, 6, 13); border-radius: 50px;}
+.web_list04 {background: rgb(210,127,154); border-radius: 50px;}
+
+.web_list01 .wl_bg {background: url(../img/Old-TV-Mockup01.png) no-repeat; background-size: contain; background-position: center  center;}
+.web_list02 .wl_bg {background: url(../img/Old-TV-Mockup02.png) no-repeat; background-size: contain; background-position: center  center;}
+.web_list03 .wl_bg {background: url(../img/Old-TV-Mockup03.png) no-repeat; background-size: contain; background-position: center  center;}
+.web_list04 .wl_bg {background: url(../img/Old-TV-Mockup04.png) no-repeat; background-size: contain; background-position: center  center;}
+
+/* .web_tail {position: absolute; bottom: -15vw; right: 5vw; background: #fff; width: 800px; height: 800px; background: url(../img/dino.png) no-repeat; background-size: contain;} */
