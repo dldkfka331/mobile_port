@@ -1,0 +1,72 @@
+
+@font-face { font-family: '양진체'; src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff'); font-weight: normal; font-style: normal; } 
+
+body{
+    --font-main1: 'Neucha', cursive;
+    --font-main2: 'Candal', sans-serif;
+    --font-main3: 'Boogaloo', cursive;
+    --font-main4: 'Lekton', sans-serif;
+    --font-main5: 'Belleza', sans-serif;
+    --font-main6: 'Limelight', cursive;
+    --font-main7: 'Barriecito', cursive;
+    --font-roboto: 'Roboto', sans-serif;
+    --font-kr: '양진체';
+}
+
+
+
+/*ham*/
+.ham {position: fixed; top: 10px; right: 20px; z-index: 5; width: 40px; height: 40px;}
+.ham span {background: rgb(235, 6, 13); width: 35px; height: 5px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.ham span:before{content: ''; background: rgb(255, 194, 0); width: 35px; height: 5px; position: absolute; top: 12px; left: 0; transition: left .3s, transform .3s;}
+.ham span:after{content: ''; background: rgb(33, 132, 35); width: 35px; height: 5px; position: absolute; bottom: 12px; left: 0; transition: left .3s, transform .3s;}
+
+.ham:hover span:before{content: ''; background: rgb(255, 194, 0); width: 35px; height: 5px; position: absolute; top: 12px; left: 10px;}
+.ham:hover span:after{content: ''; background: rgb(33, 132, 35); width: 35px; height: 5px; position: absolute; bottom: 12px; left: 10px;}
+
+.ham.click span{background: transparent; }
+.ham.click span:before{transform: rotate(45deg) translate(-16px);  transition: left .3s, transform .3s;}
+.ham.click span:after{transform: rotate(-45deg) translate(-16px);  transition: left .3s, transform .3s;}
+
+/* nav */
+.nav {position: fixed; top: 80px; right: -200px; z-index: 5; text-align: right; text-transform: uppercase; white-space: nowrap; transition: right .3s; }
+.nav ul li {margin: 3%; padding: 0 10px; right: -200px;}
+.nav ul li a {display: block; font-size: 1.2vw; font-family:  var(--font-roboto); font-weight: bold; color: #ff7301;}
+.nav.click {right: 40px;}
+.nav ul li:nth-child(1) {background: url(../img/wci04.png) no-repeat; background-position: 0 0; background-size: cover;}
+.nav ul li:nth-child(2) {background: url(../img/wci04.png) no-repeat; background-position: 0px -35px; background-size: cover;}
+.nav ul li:nth-child(3) {background: url(../img/wci04.png) no-repeat; background-position: 0 -70px; background-size: cover;}
+.nav ul li:nth-child(4) {background: url(../img/wci04.png) no-repeat; background-position: 0 -105px; background-size: cover;}
+
+
+/*전체*/
+#contents {}
+#section1 {background: #000; height: 100vh; }
+#section2 {}
+#section3 {}
+#section4 {}
+#section5 {}
+#section6 {}
+
+/*row*/
+.row {width: 100%; padding: 2%;}
+
+
+
+/*main*/
+.main {position: relative;}
+.main .main_top {position: absolute; top: 0; left: 50%; width: 80%; transform: translateX(-50%); display: flex; justify-content: space-around; z-index: 1000;}
+.main .main_top strong {position: relative; font-family: var(--font-roboto);}
+.main .main_top strong a {color: #fff; font-size: 20px;}
+.main .main_top strong:after {content: 'X'; position: absolute; top: 5px; right: -30px; color: rgba(255, 255, 255, 0.6); font-size: 14px; font-weight: bold;}
+.main .main_top strong:last-child:after {display: none;}
+
+.main .main_tit {height: 100vh; display: flex; justify-content: center; align-items: center; }
+.main .main_tit h1 {width: 80%; font-family: var(--font-main7); text-transform: uppercase; text-align: center; color: #fff; font-size: 10vw; font-weight: bold; line-height: 1.2; margin-bottom: 5%; }
+.main .main_tit h1 span {display: none;}
+.main .main_box {position: absolute; top: 0; left: 0; width: 100%; height: 100vh; overflow-x: hidden;}
+.main .main_box .mb_text {position: absolute; display: none;}
+.main .main_box .mb_text img {width: 200px;}
+
+.main .main_row {position: absolute; bottom: 25%; left: 50%; transform: translateX(-50%); width: 31px; height: 50px; display: none;}
+.main .main_row svg {width: 100%;}
