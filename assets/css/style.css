@@ -55,10 +55,10 @@ body{
 
 /*main*/
 .main {position: relative;}
-.main .main_top {position: absolute; top: 2%; left: 50%; width: 80%; transform: translateX(-50%); display: flex; justify-content: space-around; z-index: 1000;}
+.main .main_top {position: absolute; top: 2%; left: 50%; width: 60%; transform: translateX(-50%); display: flex; justify-content: space-around; z-index: 1000;}
 .main .main_top strong {position: relative; font-family: var(--font-roboto);}
-.main .main_top strong a {color: #fff; font-size: 2.7vw;}
-.main .main_top strong:after {content: 'X'; position: absolute; top: 1vw; right: -6vw; color: rgba(255, 255, 255, 0.6); font-size: 12px; font-weight: bold;}
+.main .main_top strong a {color: #fff; font-size: 3vw;}
+.main .main_top strong:after {content: 'X'; position: absolute; top: 1vw; right: -3.3vw; color: rgba(255, 255, 255, 0.6); font-size: 12px; font-weight: bold;}
 .main .main_top strong:last-child:after {display: none;}
 
 .main .main_tit {height: 100vh; display: flex; justify-content: center; align-items: center; }
@@ -67,8 +67,8 @@ body{
 .main .main_box {position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow-x: hidden;}
 .main .main_box .mb_text {position: absolute; display: none;}
 .main .main_box .mb_text img {width: 120px;}
-.main .main_box .mb_text:nth-child(1) {top: 30%; left: 30%; transform: rotate(20deg);}
-.main .main_box .mb_text:nth-child(2) {top: 25%; left: 83%; transform: rotate(-20deg);}
+.main .main_box .mb_text:nth-child(1) {top: 30%; left: 10%; transform: rotate(20deg);}
+.main .main_box .mb_text:nth-child(2) {top: 25%; left: 23%; transform: rotate(-20deg);}
 .main .main_box .mb_text:nth-child(3) {top: 68%; left: 27%; transform: rotate(23deg);}
 .main .main_box .mb_text:nth-child(4) {top: 56%; left: 36%; transform: rotate(42deg);}
 .main .main_box .mb_text:nth-child(5) {top: 27%; left: 65%; transform: rotate(25deg);}
@@ -76,9 +76,9 @@ body{
 .main .main_box .mb_text:nth-child(7) {top: 33%; left: 38%; transform: rotate(33deg);}
 .main .main_box .mb_text:nth-child(8) {top: 22%; left: 56%;transform: rotate(-31deg);}
 .main .main_box .mb_text:nth-child(9) {top: 66%; left: 78%; transform: rotate(-3deg);}
-.main .main_box .mb_text:nth-child(10) {top: 39%; left: 90%; transform: rotate(13deg);}
+.main .main_box .mb_text:nth-child(10) {top: 39%; left: -5%; transform: rotate(13deg);}
 .main .main_box .mb_text:nth-child(11) {top: 56%; left: 31%; transform: rotate(-32deg);}
-.main .main_box .mb_text:nth-child(12) {top: 31%; left: 13%; transform: rotate(22deg);}
+.main .main_box .mb_text:nth-child(12) {top: 31%; left: -13%; transform: rotate(22deg);}
 .main .main_box .mb_text:nth-child(13) {top: 22%; left: 58%; transform: rotate(23deg);}
 .main .main_box .mb_text:nth-child(14) {top: 44%; left: 87%; transform: rotate(21deg);}
 .main .main_box .mb_text:nth-child(15) {top: 55%; left: 71%; transform: rotate(30deg);}
@@ -92,7 +92,7 @@ body{
 .main .main_box .mb_text:nth-child(23) {top: 55%; left: 3%; transform: rotate(-25deg);}
 .main .main_box .mb_text:nth-child(24) {top: 42%; left: 23%; transform: rotate(22deg);}
 .main .main_box .mb_text:nth-child(25) {top: 25%; left: 33%; transform: rotate(16deg);}
-.main .main_box .mb_text:nth-child(26) {top: 54%; left: 17%; transform: rotate(23deg);}
+.main .main_box .mb_text:nth-child(26) {top: 54%; left: -17%; transform: rotate(23deg);}
 .main .main_box .mb_text:nth-child(27) {top: 33%; left: 56%; transform: rotate(11deg);}
 .main .main_box .mb_text:nth-child(28) {top: 43%; left: 45%; transform: rotate(7deg);}
 .main .main_box .mb_text:nth-child(29) {top: 63%; left: 47%; transform: rotate(13deg);}
@@ -113,11 +113,11 @@ body{
 .main .main_box .mb_text:nth-child(44) {top: 29%; left: 10%; transform: rotate(10deg);}
 .main .main_box .mb_text:nth-child(45) {top: 39%; left: 5%; transform: rotate(-5deg);}
 .main .main_box .mb_text:nth-child(46) {top: 51%; left: 85%; transform: rotate(3deg);}
-.main .main_box .mb_text:nth-child(47) {top: 33%; left: 78%; transform: rotate(-33deg);}
+.main .main_box .mb_text:nth-child(47) {top: 33%; left: 38%; transform: rotate(-33deg);}
 .main .main_box .mb_text:nth-child(48) {top: 47%; left: 15%; transform: rotate(22deg);}
 .main .main_box .mb_text:nth-child(49) {top: 52%; left: 58%; transform: rotate(-33deg);}
-.main .main_box .mb_text:nth-child(50) {top: 51%; left: 3%; transform: rotate(13deg);}
-.main .main_box .mb_text:nth-child(51) {top: 52%; left: 67%; transform: rotate(13deg);}
+.main .main_box .mb_text:nth-child(50) {top: 51%; left: -3%; transform: rotate(13deg);}
+.main .main_box .mb_text:nth-child(51) {top: 52%; left: 27%; transform: rotate(13deg);}
 .main .main_box .mb_text:nth-child(52) {top: 33%; left: 8%; transform: rotate(29deg);}
 .main .main_box .mb_text:nth-child(53) {top: 39%; left: 28%; transform: rotate(-24deg);}
 .main .main_box .mb_text:nth-child(54) {top: 65%; left: 12%; transform: rotate(9deg);}
