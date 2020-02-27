@@ -1,15 +1,4 @@
-$(function(){
-     //skrollr
-     var s = skrollr.init(
-        smoothScrolling = true
-    );
-
-    $(window).scroll(function(){    
-        let wScroll = $(this).scrollTop();
-        $(".ScrollTop span").text(wScroll);
-    });
-    
-    
+$(function(){    
     //로딩
     let mainText = $(".main_tit > h1").text().split('').join("</span><span>");
     mainText ="<span>"+ mainText +"</span>";
