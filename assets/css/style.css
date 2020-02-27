@@ -31,14 +31,14 @@ body{
 .ham.click span:after{transform: rotate(-45deg) translate(-16px);  transition: left .3s, transform .3s;}
 
 /* nav */
-.nav {position: fixed; top: 80px; right: -200px; z-index: 5; text-align: right; text-transform: uppercase; white-space: nowrap; transition: right .3s; }
-.nav ul li {margin: 3%; padding: 0 10px; right: -200px;}
-.nav ul li a {display: block; font-size: 1.2vw; font-family:  var(--font-roboto); font-weight: bold; color: #ff7301;}
-.nav.click {right: 40px;}
+.nav {position: fixed; top: 80px; right: -300px; width: 150px; z-index: 5; text-align: right; text-transform: uppercase; white-space: nowrap; transition: right .3s; }
+.nav ul li {margin: 3%; padding: 5px 0px;}
+.nav ul li a {display: block; font-size: 4vw; font-family:  var(--font-main4); font-weight: bold; color: #ff7301;}
+.nav.click {right: 20px;}
 .nav ul li:nth-child(1) {background: url(../img/wci04.png) no-repeat; background-position: 0 0; background-size: cover;}
-.nav ul li:nth-child(2) {background: url(../img/wci04.png) no-repeat; background-position: 0px -35px; background-size: cover;}
-.nav ul li:nth-child(3) {background: url(../img/wci04.png) no-repeat; background-position: 0 -70px; background-size: cover;}
-.nav ul li:nth-child(4) {background: url(../img/wci04.png) no-repeat; background-position: 0 -105px; background-size: cover;}
+.nav ul li:nth-child(2) {background: url(../img/wci04.png) no-repeat; background-position: 0px -55px; background-size: cover;}
+.nav ul li:nth-child(3) {background: url(../img/wci04.png) no-repeat; background-position: 0 -110px; background-size: cover;}
+.nav ul li:nth-child(4) {background: url(../img/wci04.png) no-repeat; background-position: 0 -150px; background-size: cover;}
 
 
 /*전체*/
