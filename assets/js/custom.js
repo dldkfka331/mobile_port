@@ -47,6 +47,7 @@ $(function(){
 
       //slick
       $('.web_list').slick({
+        infinite: true,
       });
               
 
