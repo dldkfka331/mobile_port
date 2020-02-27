@@ -1,5 +1,11 @@
 
 @font-face { font-family: '양진체'; src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff'); font-weight: normal; font-style: normal; } 
+@font-face {
+    font-family: 'Godo';
+    font-style: normal;
+    font-weight: 400;
+    src: url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2') format('woff2'), url('//cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff') format('woff');
+  }
 
 body{
     --font-main1: 'Neucha', cursive;
@@ -11,6 +17,7 @@ body{
     --font-main7: 'Barriecito', cursive;
     --font-roboto: 'Roboto', sans-serif;
     --font-kr: '양진체';
+    --font-kr2: 'Godo';
 }
 
 
@@ -152,7 +159,7 @@ text {position: absolute; top:50%; left: 50%; transform: translate(-50%, -50%); 
 .me_img img {width: 100%; border-radius: 5%; position: relative;}
 .me_img:after {content: ''; width: 100%; height: 100%; position: absolute; top: 0;  left: 0; background: rgba(255,255,255,.7); border-radius: 5%;}
 p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-main3); transform: rotate(-90deg) translate(-30vw, -40vw); -webkit-text-fill-color: transparent; -webkit-text-stroke-color: #000; -webkit-text-stroke-width: 2px; }
-.who_text_about p.who_click {font-size: 5vw; margin: 5vh 3vw 0 0; text-align: right; font-family: var(--font-kr); letter-spacing: 5px; word-break: keep-all; line-height: 1.7; z-index: 5; position: relative;}
+.who_text_about p.who_click {font-size: 5vw; margin: 5vh 3vw 0 0; text-align: right; font-family: var(--font-kr2); letter-spacing: 2px; word-break: keep-all; z-index: 5; position: relative;}
 
 
 /*history */

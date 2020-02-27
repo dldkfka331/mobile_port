@@ -8,7 +8,6 @@ $(function(){
             $(".main_tit > h1").find("span").eq(index).show();
         },100*(index+1));
     });
-
     setTimeout(function(){
         $(".main_box > div").each(function(index){
             setTimeout(function(){
