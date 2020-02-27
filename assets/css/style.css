@@ -57,8 +57,8 @@ body{
 .main {position: relative;}
 .main .main_top {position: absolute; top: 0; left: 50%; width: 80%; transform: translateX(-50%); display: flex; justify-content: space-around; z-index: 1000;}
 .main .main_top strong {position: relative; font-family: var(--font-roboto);}
-.main .main_top strong a {color: #fff; font-size: 20px;}
-.main .main_top strong:after {content: 'X'; position: absolute; top: 5px; right: -30px; color: rgba(255, 255, 255, 0.6); font-size: 14px; font-weight: bold;}
+.main .main_top strong a {color: #fff; font-size: 1.2vw;}
+.main .main_top strong:after {content: 'X'; position: absolute; top: 1vw; right: -10vw; color: rgba(255, 255, 255, 0.6); font-size: 12px; font-weight: bold;}
 .main .main_top strong:last-child:after {display: none;}
 
 .main .main_tit {height: 100vh; display: flex; justify-content: center; align-items: center; }
