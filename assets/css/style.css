@@ -166,8 +166,8 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 
 /*history */
 .history {position: relative; width: 100%; }
-.history_img {position: absolute; top: -20vw; left: 50%; transform: translateX(-50%) rotate(-15deg); transition: transform .3s}
-.history_img.rotate {transform: translateX(-50%) rotate(15deg)} 
+.history_img {position: absolute; top: -20vw; left: 50%; transform: translateX(-50%) rotate(-15deg); transition: transform .5s}
+.history_img.rotate {transform: translateX(-50%) rotate(15deg); transition: transform .5s} 
 .history_img img{width: 100%;}
 .history_tit {display: flex; justify-content: space-around; font-size: 17vw; padding-top: 30vw; text-transform: uppercase; color: #fff; font-family: var(--font-main7);}
 .histort_bg {margin-right: 3vw; height: 80vw; margin-top: 10vw; position: relative;}
@@ -184,19 +184,18 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 .web_tit {font-size: 14vw; text-align: center; padding-top: 17vw; text-transform: uppercase; font-family: var(--font-main7); color: #fff; line-height: 1; background: #000; padding-bottom: 15vw;}
 .web_bg {background: url(../img/web_bg.jpg) no-repeat center center; background-size: cover; filter: hue-rotate(80deg); background-attachment: fixed; width: 100%; height: 40vh; }
 
-.web_tail {position: absolute; bottom: -15vw; right: 2vw; background: #fff; width: 60vw; height: 60vw; background: url(../img/dino.png) no-repeat; background-size: contain;}
+.web_tail {position: absolute; bottom: -15vw; right: 2vw; background: #fff; width: 60vw; height: 60vw; background: url(../img/dino.png) no-repeat; background-size: contain; z-index: 1000}
 
 /*모바일*/
 .mobile_wrap {width: 100%; background: url(../img/mo_bg03.png); background-size: contain; padding-bottom: 30vw; padding-top: 20vw;}
-.mobile_list { }
+
 .mobile_list > div[class^='mobile_list0'] {position: relative; }
 .mobile_list01 {height: 800px; background: url(../img/Realistic01_01.png)center center  no-repeat; background-size: contain; }
 .mobile_list02 {height: 800px; background: url(../img/Realistic02_01.png)center center  no-repeat; background-size: contain;}
 .mobile_list03 {height: 800px; background: url(../img/Realistic03_01.png)center center  no-repeat; background-size: contain;}
 .mobile_list04 {height: 800px;  background: url(../img/Realistic04_01.png) center center no-repeat; background-size: contain;}
 .mobile_list05 {height: 800px; background: url(../img/Realistic05_01.png)center center  no-repeat; background-size: contain;}
-
-.mbl_text {margin-right: 5%; text-align: right;  margin-top: 60vw; font-family: var(--font-main3);  line-height: 1; text-transform: uppercase;}
+.mbl_text {margin-right: 5%; text-align: right; margin-top: 60vw; font-family: var(--font-main3); line-height: 1; text-transform: uppercase;}
 
 .mbl_text p{font-size: 7vw; font-weight: bold; 
     -webkit-text-fill-color: #fdc687;

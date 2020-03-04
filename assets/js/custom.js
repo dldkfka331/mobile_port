@@ -55,7 +55,7 @@ $(function(){
     let bear = $('.history_img');
     setInterval(function(){
         bear.toggleClass('rotate');
-    },500);
+    },600);
     
     
     
@@ -63,7 +63,7 @@ $(function(){
       $('.mobile_list').slick({
         infinite: true,
         centerMode: true,
-        centerPadding: '150px',
+        centerPadding: '50px',
         slidesToShow: 1
        });
 
@@ -71,7 +71,7 @@ $(function(){
     if($(".me_suchi span").is( ":visible" ) ){
         $('.counter').counterUp({
             delay: 100, 
-            time: 1500 
+            time: 2000 
         });
     };
     
@@ -83,8 +83,6 @@ $(function(){
     $(window).scroll(function(){
         let wScroll = $(window).scrollTop();
         let conTop = $('.contact_tit').offset().top;
-        console.log(wScroll)
-        console.log(conTop)
         if(wScroll >= conTop-100){    
             $(".contact_tit > h1").find("span").each(function(index){
                 setTimeout(function(){
