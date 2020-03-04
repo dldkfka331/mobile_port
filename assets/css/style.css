@@ -216,7 +216,7 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 
 /*contact*/
 .contact_tit {height: 100vh; display: flex; justify-content: center; align-items: center; }
-.contact_tit h1 {width: 90%; font-family: var(--font-main3); text-align: center; color: #fff; font-size: 12vw; font-weight: bold; line-height: 1.2; margin-bottom: 5%; }
+.contact_tit h1 {width: 90%; font-family: var(--font-main3); text-align: center; color: #fff; font-size: 15vw; font-weight: bold; line-height: 1.2; margin-bottom: 5%; }
 .contact_tit h1 span {display: none; color: #fdebd3}
 .contact_tit h1 span:nth-child(2n) {color: #f9b4ab}
 .contact_tit h1 span:nth-child(3n) {color: #548687}
