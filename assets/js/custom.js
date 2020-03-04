@@ -43,7 +43,24 @@ $(function(){
           $("html, body").animate({scrollTop: target.offset().top},600,"easeInOutExpo")
         }
       });
+    
+    //깜빡임
+    setInterval(function(){
+        $('.who_text_about p.who_click').toggleClass('twink');
+        $('.histort_bg .history_text p').toggleClass('twink');
+    },500);
+    
 
+    //곰
+    let bear = $('.history_img');
+    setInterval(function(){
+        bear.toggleClass('rotate');
+    },500);
+    
+    
+ 
+    
+    
       //slick
       $('.mobile_list').slick({
         infinite: true,
