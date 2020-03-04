@@ -176,8 +176,8 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 .hi_bg {position: absolute; top: 20vw; left: -12vw; width: 110%; height: 100vw; background: url(../img/mb_text101.png) no-repeat center center; background-size: contain;}
 .histort_bg .history_text {position: absolute; top: 0vw; right: 0; word-break: keep-all; text-align: right; font-family: var(--font-kr2); }
 .histort_bg .history_text strong {font-size: 10vw; font-family: var(--font-main7);}
-.histort_bg .history_text p {font-size: 3.5vw; margin-left: 30%; line-height: 1.3;}
-.histort_bg .history_text p:after {content: ''; position: absolute; bottom: .5vw; right: -1vw; width: 3px; height: 3.5vw; background: #000;}
+.histort_bg .history_text p {font-size: 3.5vw; margin:0 1vw 0 30%; line-height: 1.3;}
+.histort_bg .history_text p:after {content: ''; position: absolute; bottom: .5vw; right: 0; width: 2px; height: 3.5vw; background: #000;}
 .histort_bg .history_text p.twink:after {width: 0;}  
 
 
@@ -189,7 +189,7 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 .web_tail {position: absolute; bottom: -15vw; right: 2vw; background: #fff; width: 60vw; height: 60vw; background: url(../img/dino.png) no-repeat; background-size: contain;}
 
 /*모바일*/
-.mobile_wrap {width: 100%; background: url(../img/mo_bg03.png); background-size: contain; padding-bottom: 50vw; padding-top: 20vw;}
+.mobile_wrap {width: 100%; background: url(../img/mo_bg03.png); background-size: contain; padding-bottom: 30vw; padding-top: 20vw;}
 .mobile_list { }
 .mobile_list > div[class^='mobile_list0'] {position: relative; }
 .mobile_list01 {height: 800px; background: url(../img/Realistic01_01.png)center center  no-repeat; background-size: contain; }
