@@ -73,7 +73,7 @@ $(function(){
     if($(".me_suchi span").is( ":visible" ) ){
         $('.counter').counterUp({
             delay: 100, 
-            time: 3000 
+            time: 1000 
         });
     }
               
