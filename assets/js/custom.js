@@ -58,8 +58,6 @@ $(function(){
     },500);
     
     
- 
-    
     
       //slick
       $('.mobile_list').slick({
@@ -69,13 +67,34 @@ $(function(){
         slidesToShow: 1
        });
 
-          //기록
+    //기록
     if($(".me_suchi span").is( ":visible" ) ){
         $('.counter').counterUp({
             delay: 100, 
-            time: 1000 
+            time: 1500 
         });
-    }
-              
+    };
+    
+    //contact
+    let conText = $(".contact_tit > h1").text().split('').join("</span><span>");
+    conText ="<span>"+ conText +"</span>";
+    $(".contact_tit > h1").html(conText);
+    
+    $(window).scroll(function(){
+        let wScroll = $(window).scrollTop();
+        let conTop = $('.contact_tit').offset().top;
+        console.log(wScroll)
+        console.log(conTop)
+        if(wScroll >= conTop-100){    
+            $(".contact_tit > h1").find("span").each(function(index){
+                setTimeout(function(){
+                    $(".contact_tit > h1").find("span").eq(index).show();
+                },100*(index+1));
+            });
+        }
+   
+            
+    })
+     
 
 });

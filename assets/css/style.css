@@ -54,6 +54,7 @@ body{
 #section3 {background: rgb(139, 86, 124); padding-bottom: 50vw;}
 #section4 {}
 #section5 {}
+#section6 {height: 100vh; background: #000;}
 
 /*row*/
 .row {width: 100%;}
@@ -130,9 +131,6 @@ body{
 .main .main_box .mb_text:nth-child(54) {top: 65%; left: 12%; transform: rotate(9deg);}
 .main .main_row {position: absolute; bottom: 25%; left: 50%; transform: translateX(-50%); width: 31px; height: 50px; display: none;}
 .main .main_row svg {width: 80%;}
-
-
-
 
 /* who */
 .who {padding-top: 20vw;}
@@ -214,3 +212,15 @@ p.me_img_text {font-size: 10vh; white-space: nowrap; font-family: var(--font-mai
 .me_suchi p {margin-top: 30px;}
 .me_suchi span {font-size: 5vw; position: relative; }
 .me_suchi span:after {content: '%'; font-size: 3vw; position: absolute; bottom: 0; right: -15px;}
+
+/*contact*/
+.contact_tit {height: 100vh; display: flex; justify-content: center; align-items: center; }
+.contact_tit h1 {width: 90%; font-family: var(--font-main3); text-align: center; color: #fff; font-size: 12vw; font-weight: bold; line-height: 1.2; margin-bottom: 5%; }
+.contact_tit h1 span {display: none; color: #fdebd3}
+.contact_tit h1 span:nth-child(2n) {color: #f9b4ab}
+.contact_tit h1 span:nth-child(3n) {color: #548687}
+.contact_tit h1 span:nth-child(5n) {color: #ff7473}
+.contact_tit h1 span:nth-child(4n) {color: #ffc952}
+.contact_tit h1 span:nth-child(10n) {color: #bae8e8}
+.contact_tit h1 span:nth-child(6n) {color: #679186}
+
