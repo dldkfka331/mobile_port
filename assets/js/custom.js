@@ -65,8 +65,8 @@ $(function(){
       $('.mobile_list').slick({
         infinite: true,
         centerMode: true,
-        centerPadding: '20px',
-        slidesToShow: 1.2
+        centerPadding: '150px',
+        slidesToShow: 1
        });
 
           //기록
